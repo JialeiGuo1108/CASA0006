@@ -1,0 +1,588 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="days_since_2011<437" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="days_since_2011<107" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="days_since_2011<70" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-891.607666" ]
+
+    8 [ label="temp<15.6634665" ]
+    8 -> 15 [label="yes" color="#FF0000"]
+    8 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=-626.338623" ]
+
+    16 [ label="leaf=-278.439148" ]
+
+    4 [ label="temp<13.6199999" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="temp<5.00334883" ]
+    9 -> 17 [label="yes" color="#FF0000"]
+    9 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="days_since_2011<409" ]
+    17 -> 27 [label="yes" color="#FF0000"]
+    17 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="workingday_NO WORKING DAY" ]
+    27 -> 45 [label="yes" color="#FF0000"]
+    27 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="hum<40.3333015" ]
+    45 -> 73 [label="yes" color="#FF0000"]
+    45 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="leaf=-127.126106" ]
+
+    74 [ label="leaf=-458.939514" ]
+
+    46 [ label="leaf=-661.022034" ]
+
+    28 [ label="leaf=-165.401459" ]
+
+    18 [ label="days_since_2011<368" ]
+    18 -> 29 [label="yes" color="#FF0000"]
+    18 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="windspeed<9.08406067" ]
+    29 -> 47 [label="yes" color="#FF0000"]
+    29 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="days_since_2011<314" ]
+    47 -> 75 [label="yes" color="#FF0000"]
+    47 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="hum<63.0833015" ]
+    75 -> 109 [label="yes" color="#FF0000"]
+    75 -> 110 [label="no, missing" color="#0000FF"]
+
+    109 [ label="leaf=-24.5261002" ]
+
+    110 [ label="windspeed<5.54201889" ]
+    110 -> 145 [label="yes" color="#FF0000"]
+    110 -> 146 [label="no, missing" color="#0000FF"]
+
+    145 [ label="leaf=-55.2014656" ]
+
+    146 [ label="leaf=-177.473312" ]
+
+    76 [ label="leaf=-266.95697" ]
+
+    48 [ label="hum<50.375" ]
+    48 -> 77 [label="yes" color="#FF0000"]
+    48 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="temp<12.7583494" ]
+    77 -> 111 [label="yes" color="#FF0000"]
+    77 -> 112 [label="no, missing" color="#0000FF"]
+
+    111 [ label="leaf=-213.661774" ]
+
+    112 [ label="leaf=-42.3760986" ]
+
+    78 [ label="season_WINTER" ]
+    78 -> 113 [label="yes" color="#FF0000"]
+    78 -> 114 [label="no, missing" color="#0000FF"]
+
+    113 [ label="leaf=-649.487" ]
+
+    114 [ label="hum<70.3332977" ]
+    114 -> 147 [label="yes" color="#FF0000"]
+    114 -> 148 [label="no, missing" color="#0000FF"]
+
+    147 [ label="days_since_2011<316" ]
+    147 -> 175 [label="yes" color="#FF0000"]
+    147 -> 176 [label="no, missing" color="#0000FF"]
+
+    175 [ label="leaf=-137.77684" ]
+
+    176 [ label="leaf=-353.08316" ]
+
+    148 [ label="leaf=-557.501953" ]
+
+    30 [ label="days_since_2011<430" ]
+    30 -> 49 [label="yes" color="#FF0000"]
+    30 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="windspeed<12.0002356" ]
+    49 -> 79 [label="yes" color="#FF0000"]
+    49 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="days_since_2011<400" ]
+    79 -> 115 [label="yes" color="#FF0000"]
+    79 -> 116 [label="no, missing" color="#0000FF"]
+
+    115 [ label="temp<8.13665104" ]
+    115 -> 149 [label="yes" color="#FF0000"]
+    115 -> 150 [label="no, missing" color="#0000FF"]
+
+    149 [ label="leaf=-63.0617599" ]
+
+    150 [ label="leaf=7.42390156" ]
+
+    116 [ label="hum<49.75" ]
+    116 -> 151 [label="yes" color="#FF0000"]
+    116 -> 152 [label="no, missing" color="#0000FF"]
+
+    151 [ label="leaf=-14.476099" ]
+
+    152 [ label="leaf=-175.201767" ]
+
+    80 [ label="temp<9.54665089" ]
+    80 -> 117 [label="yes" color="#FF0000"]
+    80 -> 118 [label="no, missing" color="#0000FF"]
+
+    117 [ label="weekday_FRI" ]
+    117 -> 153 [label="yes" color="#FF0000"]
+    117 -> 154 [label="no, missing" color="#0000FF"]
+
+    153 [ label="weathersit_MISTY" ]
+    153 -> 177 [label="yes" color="#FF0000"]
+    153 -> 178 [label="no, missing" color="#0000FF"]
+
+    177 [ label="leaf=-256.583832" ]
+
+    178 [ label="leaf=-446.739166" ]
+
+    154 [ label="leaf=-47.6260986" ]
+
+    118 [ label="hum<56.8333015" ]
+    118 -> 155 [label="yes" color="#FF0000"]
+    118 -> 156 [label="no, missing" color="#0000FF"]
+
+    155 [ label="leaf=45.2239037" ]
+
+    156 [ label="leaf=-155.214157" ]
+
+    50 [ label="temp<5.59084892" ]
+    50 -> 81 [label="yes" color="#FF0000"]
+    50 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="leaf=-53.0261002" ]
+
+    82 [ label="temp<11.1525002" ]
+    82 -> 119 [label="yes" color="#FF0000"]
+    82 -> 120 [label="no, missing" color="#0000FF"]
+
+    119 [ label="leaf=88.3985367" ]
+
+    120 [ label="leaf=14.6239023" ]
+
+    10 [ label="hum<84.75" ]
+    10 -> 19 [label="yes" color="#FF0000"]
+    10 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="hum<51.5416985" ]
+    19 -> 31 [label="yes" color="#FF0000"]
+    19 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="temp<26.9366512" ]
+    31 -> 51 [label="yes" color="#FF0000"]
+    31 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="temp<14.1683493" ]
+    51 -> 83 [label="yes" color="#FF0000"]
+    51 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="leaf=16.1239014" ]
+
+    84 [ label="mnth_MAY" ]
+    84 -> 121 [label="yes" color="#FF0000"]
+    84 -> 122 [label="no, missing" color="#0000FF"]
+
+    121 [ label="leaf=215.837967" ]
+
+    122 [ label="leaf=49.7239037" ]
+
+    52 [ label="leaf=0.523901403" ]
+
+    32 [ label="windspeed<8.4787159" ]
+    32 -> 53 [label="yes" color="#FF0000"]
+    32 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="workingday_NO WORKING DAY" ]
+    53 -> 85 [label="yes" color="#FF0000"]
+    53 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="season_FALL" ]
+    85 -> 123 [label="yes" color="#FF0000"]
+    85 -> 124 [label="no, missing" color="#0000FF"]
+
+    123 [ label="windspeed<8.12515736" ]
+    123 -> 157 [label="yes" color="#FF0000"]
+    123 -> 158 [label="no, missing" color="#0000FF"]
+
+    157 [ label="hum<77.5417023" ]
+    157 -> 179 [label="yes" color="#FF0000"]
+    157 -> 180 [label="no, missing" color="#0000FF"]
+
+    179 [ label="leaf=-79.7641525" ]
+
+    180 [ label="leaf=15.5239019" ]
+
+    158 [ label="leaf=66.8239059" ]
+
+    124 [ label="temp<23.0200005" ]
+    124 -> 159 [label="yes" color="#FF0000"]
+    124 -> 160 [label="no, missing" color="#0000FF"]
+
+    159 [ label="leaf=131.898544" ]
+
+    160 [ label="leaf=46.4608536" ]
+
+    86 [ label="days_since_2011<129" ]
+    86 -> 125 [label="yes" color="#FF0000"]
+    86 -> 126 [label="no, missing" color="#0000FF"]
+
+    125 [ label="leaf=-20.7761002" ]
+
+    126 [ label="temp<24.8608494" ]
+    126 -> 161 [label="yes" color="#FF0000"]
+    126 -> 162 [label="no, missing" color="#0000FF"]
+
+    161 [ label="leaf=214.531387" ]
+
+    162 [ label="leaf=40.8739014" ]
+
+    54 [ label="weathersit_MISTY" ]
+    54 -> 87 [label="yes" color="#FF0000"]
+    54 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="temp<29.7958488" ]
+    87 -> 127 [label="yes" color="#FF0000"]
+    87 -> 128 [label="no, missing" color="#0000FF"]
+
+    127 [ label="windspeed<15.2500038" ]
+    127 -> 163 [label="yes" color="#FF0000"]
+    127 -> 164 [label="no, missing" color="#0000FF"]
+
+    163 [ label="days_since_2011<111" ]
+    163 -> 181 [label="yes" color="#FF0000"]
+    163 -> 182 [label="no, missing" color="#0000FF"]
+
+    181 [ label="leaf=-156.376099" ]
+
+    182 [ label="leaf=57.5491066" ]
+
+    164 [ label="temp<25.2916508" ]
+    164 -> 183 [label="yes" color="#FF0000"]
+    164 -> 184 [label="no, missing" color="#0000FF"]
+
+    183 [ label="leaf=-13.1768322" ]
+
+    184 [ label="leaf=-126.501465" ]
+
+    128 [ label="leaf=-193.164154" ]
+
+    88 [ label="hum<65.375" ]
+    88 -> 129 [label="yes" color="#FF0000"]
+    88 -> 130 [label="no, missing" color="#0000FF"]
+
+    129 [ label="leaf=72.2985382" ]
+
+    130 [ label="weekday_TUE" ]
+    130 -> 165 [label="yes" color="#FF0000"]
+    130 -> 166 [label="no, missing" color="#0000FF"]
+
+    165 [ label="weekday_SAT" ]
+    165 -> 185 [label="yes" color="#FF0000"]
+    165 -> 186 [label="no, missing" color="#0000FF"]
+
+    185 [ label="leaf=-127.104591" ]
+
+    186 [ label="leaf=-34.4641495" ]
+
+    166 [ label="temp<18.4375" ]
+    166 -> 187 [label="yes" color="#FF0000"]
+    166 -> 188 [label="no, missing" color="#0000FF"]
+
+    187 [ label="leaf=-62.5014648" ]
+
+    188 [ label="leaf=6.86085224" ]
+
+    20 [ label="windspeed<6.50039339" ]
+    20 -> 33 [label="yes" color="#FF0000"]
+    20 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="temp<20.0041504" ]
+    33 -> 55 [label="yes" color="#FF0000"]
+    33 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=-17.9260998" ]
+
+    56 [ label="leaf=142.723907" ]
+
+    34 [ label="days_since_2011<139" ]
+    34 -> 57 [label="yes" color="#FF0000"]
+    34 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="temp<17.9675007" ]
+    57 -> 89 [label="yes" color="#FF0000"]
+    57 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="leaf=-106.389153" ]
+
+    90 [ label="leaf=12.2239017" ]
+
+    58 [ label="weekday_TUE" ]
+    58 -> 91 [label="yes" color="#FF0000"]
+    58 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="weekday_FRI" ]
+    91 -> 131 [label="yes" color="#FF0000"]
+    91 -> 132 [label="no, missing" color="#0000FF"]
+
+    131 [ label="leaf=-550.783203" ]
+
+    132 [ label="leaf=-139.126099" ]
+
+    92 [ label="leaf=-124.576103" ]
+
+    2 [ label="temp<12.7583494" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="windspeed<21.7922859" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="days_since_2011<722" ]
+    11 -> 21 [label="yes" color="#FF0000"]
+    11 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="hum<73.9167023" ]
+    21 -> 35 [label="yes" color="#FF0000"]
+    21 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="temp<10.0558491" ]
+    35 -> 59 [label="yes" color="#FF0000"]
+    35 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="temp<3.67165089" ]
+    59 -> 93 [label="yes" color="#FF0000"]
+    59 -> 94 [label="no, missing" color="#0000FF"]
+
+    93 [ label="leaf=-307.126099" ]
+
+    94 [ label="days_since_2011<716" ]
+    94 -> 133 [label="yes" color="#FF0000"]
+    94 -> 134 [label="no, missing" color="#0000FF"]
+
+    133 [ label="mnth_APR" ]
+    133 -> 167 [label="yes" color="#FF0000"]
+    133 -> 168 [label="no, missing" color="#0000FF"]
+
+    167 [ label="weekday_SUN" ]
+    167 -> 189 [label="yes" color="#FF0000"]
+    167 -> 190 [label="no, missing" color="#0000FF"]
+
+    189 [ label="leaf=264.179169" ]
+
+    190 [ label="leaf=83.2985382" ]
+
+    168 [ label="temp<8.60665131" ]
+    168 -> 191 [label="yes" color="#FF0000"]
+    168 -> 192 [label="no, missing" color="#0000FF"]
+
+    191 [ label="leaf=58.5739021" ]
+
+    192 [ label="leaf=-37.7261009" ]
+
+    134 [ label="leaf=-51.5261002" ]
+
+    60 [ label="weekday_TUE" ]
+    60 -> 95 [label="yes" color="#FF0000"]
+    60 -> 96 [label="no, missing" color="#0000FF"]
+
+    95 [ label="leaf=574.273071" ]
+
+    96 [ label="leaf=224.698547" ]
+
+    36 [ label="mnth_OKT" ]
+    36 -> 61 [label="yes" color="#FF0000"]
+    36 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="hum<78.7917023" ]
+    61 -> 97 [label="yes" color="#FF0000"]
+    61 -> 98 [label="no, missing" color="#0000FF"]
+
+    97 [ label="leaf=-177.001465" ]
+
+    98 [ label="weekday_SUN" ]
+    98 -> 135 [label="yes" color="#FF0000"]
+    98 -> 136 [label="no, missing" color="#0000FF"]
+
+    135 [ label="days_since_2011<442" ]
+    135 -> 169 [label="yes" color="#FF0000"]
+    135 -> 170 [label="no, missing" color="#0000FF"]
+
+    169 [ label="leaf=-14.0260992" ]
+
+    170 [ label="days_since_2011<710" ]
+    170 -> 193 [label="yes" color="#FF0000"]
+    170 -> 194 [label="no, missing" color="#0000FF"]
+
+    193 [ label="leaf=189.635864" ]
+
+    194 [ label="leaf=17.0239029" ]
+
+    136 [ label="hum<88.125" ]
+    136 -> 171 [label="yes" color="#FF0000"]
+    136 -> 172 [label="no, missing" color="#0000FF"]
+
+    171 [ label="leaf=70.1985397" ]
+
+    172 [ label="leaf=-186.526108" ]
+
+    62 [ label="leaf=-506.326111" ]
+
+    22 [ label="leaf=-555.721802" ]
+
+    12 [ label="leaf=-782.476868" ]
+
+    6 [ label="hum<74.2082977" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="temp<29.7958488" ]
+    13 -> 23 [label="yes" color="#FF0000"]
+    13 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="days_since_2011<494" ]
+    23 -> 37 [label="yes" color="#FF0000"]
+    23 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="weekday_WED" ]
+    37 -> 63 [label="yes" color="#FF0000"]
+    37 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="hum<35.0416985" ]
+    63 -> 99 [label="yes" color="#FF0000"]
+    63 -> 100 [label="no, missing" color="#0000FF"]
+
+    99 [ label="leaf=181.098541" ]
+
+    100 [ label="leaf=557.569336" ]
+
+    64 [ label="temp<13.8158493" ]
+    64 -> 101 [label="yes" color="#FF0000"]
+    64 -> 102 [label="no, missing" color="#0000FF"]
+
+    101 [ label="leaf=-15.6760988" ]
+
+    102 [ label="leaf=306.698547" ]
+
+    38 [ label="windspeed<23.3917103" ]
+    38 -> 65 [label="yes" color="#FF0000"]
+    38 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="hum<70.75" ]
+    65 -> 103 [label="yes" color="#FF0000"]
+    65 -> 104 [label="no, missing" color="#0000FF"]
+
+    103 [ label="temp<27.9941502" ]
+    103 -> 137 [label="yes" color="#FF0000"]
+    103 -> 138 [label="no, missing" color="#0000FF"]
+
+    137 [ label="leaf=843.487732" ]
+
+    138 [ label="hum<64.375" ]
+    138 -> 173 [label="yes" color="#FF0000"]
+    138 -> 174 [label="no, missing" color="#0000FF"]
+
+    173 [ label="leaf=561.555298" ]
+
+    174 [ label="leaf=148.873901" ]
+
+    104 [ label="windspeed<6.00040627" ]
+    104 -> 139 [label="yes" color="#FF0000"]
+    104 -> 140 [label="no, missing" color="#0000FF"]
+
+    139 [ label="leaf=11.6239014" ]
+
+    140 [ label="leaf=605.557983" ]
+
+    66 [ label="leaf=-1.87609875" ]
+
+    24 [ label="workingday_NO WORKING DAY" ]
+    24 -> 39 [label="yes" color="#FF0000"]
+    24 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=412.223206" ]
+
+    40 [ label="hum<51.9166985" ]
+    40 -> 67 [label="yes" color="#FF0000"]
+    40 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="leaf=142.798538" ]
+
+    68 [ label="leaf=30.0739021" ]
+
+    14 [ label="windspeed<14.0415249" ]
+    14 -> 25 [label="yes" color="#FF0000"]
+    14 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="hum<84.5" ]
+    25 -> 41 [label="yes" color="#FF0000"]
+    25 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="windspeed<8.95930672" ]
+    41 -> 69 [label="yes" color="#FF0000"]
+    41 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="leaf=594.251831" ]
+
+    70 [ label="days_since_2011<536" ]
+    70 -> 105 [label="yes" color="#FF0000"]
+    70 -> 106 [label="no, missing" color="#0000FF"]
+
+    105 [ label="leaf=136.910858" ]
+
+    106 [ label="leaf=350.038269" ]
+
+    42 [ label="leaf=25.1239033" ]
+
+    26 [ label="temp<22.7849998" ]
+    26 -> 43 [label="yes" color="#FF0000"]
+    26 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="temp<19.0249996" ]
+    43 -> 71 [label="yes" color="#FF0000"]
+    43 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=-244.276108" ]
+
+    72 [ label="windspeed<15.3485613" ]
+    72 -> 107 [label="yes" color="#FF0000"]
+    72 -> 108 [label="no, missing" color="#0000FF"]
+
+    107 [ label="hum<84.75" ]
+    107 -> 141 [label="yes" color="#FF0000"]
+    107 -> 142 [label="no, missing" color="#0000FF"]
+
+    141 [ label="leaf=114.710854" ]
+
+    142 [ label="leaf=-1.87609875" ]
+
+    108 [ label="temp<20.1608486" ]
+    108 -> 143 [label="yes" color="#FF0000"]
+    108 -> 144 [label="no, missing" color="#0000FF"]
+
+    143 [ label="leaf=-16.8760986" ]
+
+    144 [ label="leaf=-74.3014679" ]
+
+    44 [ label="leaf=358.873901" ]
+}
